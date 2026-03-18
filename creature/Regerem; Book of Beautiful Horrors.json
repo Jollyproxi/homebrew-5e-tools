@@ -5,17 +5,17 @@
 				"json": "BoBH",
 				"abbreviation": "BoBH",
 				"full": "Book of Beautiful Horrors",
+				"url": "https://drive.google.com/drive/mobile/folders/1L_O2j38Vo_s5S8Pb55K_vH7BIa7DAy_w?usp=sharing",
+				"version": "2.1",
 				"authors": [
 					"Regerem"
 				],
 				"convertedBy": [
-					"zombiekiller 101",
-					"Robo Cathat",
 					"Frost2779",
-					"Lyra [he/him] (v2.1 update only)"
-				],
-				"version": "2.1",
-				"url": "https://drive.google.com/drive/mobile/folders/1L_O2j38Vo_s5S8Pb55K_vH7BIa7DAy_w?usp=sharing"
+					"Lyra [he/him]",
+					"Robo Cathat",
+					"zombiekiller 101"
+				]
 			}
 		],
 		"internalCopies": [
@@ -23,8 +23,8 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1659250683,
-		"dateLastModified": 1745789474,
-		"_dateLastModifiedHash": "49e76a2733"
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "f0777acbdb"
 	},
 	"race": [
 		{
@@ -183,7 +183,7 @@
 							"detect magic"
 						],
 						"3": [
-							"beast bond"
+							"beast bond|XGE"
 						]
 					},
 					"ability": "cha"
@@ -237,14 +237,14 @@
 				{
 					"name": "Innate Spellcasting",
 					"entries": [
-						"You can cast {@spell detect magic} an unlimited number of times with this trait, but you can only sense magic that originated from a fey. Starting at 3rd level, you can also cast {@spell beast bond} with this trait. Once you cast it, you can't do so again until you finish a short or long rest. Charisma is your spellcasting ability for these spells."
+						"You can cast {@spell detect magic} an unlimited number of times with this trait, but you can only sense magic that originated from a fey. Starting at 3rd level, you can also cast {@spell beast bond|XGE} with this trait. Once you cast it, you can't do so again until you finish a short or long rest. Charisma is your spellcasting ability for these spells."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write {@language Common} and {@language Waelen}."
+						"You can speak, read, and write {@language Common} and {@language Waelen|BoBH}."
 					],
 					"type": "entries"
 				}
@@ -640,7 +640,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"entries": [
-				"This claw is coming from the wing of a griffin. When you hold it in your hand you can use an action to cast the {@condition detect poison and disease} spell for 1 hour at will and gain resistance to poison damage and immunity to the {@condition poisoned} condition for the same duration. The claw turns black when it detects poison or disease. After the hour passes the claw loses all magic properties."
+				"This claw is coming from the wing of a griffin. When you hold it in your hand you can use an action to cast the {@spell detect poison and disease} spell for 1 hour at will and gain resistance to poison damage and immunity to the {@condition poisoned} condition for the same duration. The claw turns black when it detects poison or disease. After the hour passes the claw loses all magic properties."
 			]
 		},
 		{
@@ -774,6 +774,16 @@
 				"CNS"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Potion of Dreamsight",
+			"source": "BoBH",
+			"page": 196,
+			"type": "P",
+			"rarity": "uncommon",
+			"entries": [
+				"Prepared by a druid or leathdhia with the sacred water of a moonwell and poppy tears, this brew is generally used to receive a vision quest. It is also known to be strongly hallucinogenic. For 1 hour after you drink this potion, you can see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. When the effect ends, you must succeed on a {@dc 14} Wisdom saving throw or gain a random form of long-term madness (roll on the {@table Long-Term Madness|DMG} table on page 260 of the Dungeon Master's Guide). There is a {@chance 25} chance that you benefit from the spell {@spell commune} while under the influence this madness."
+			]
 		},
 		{
 			"name": "Restless Eye",
@@ -987,15 +997,6 @@
 			]
 		},
 		{
-			"name": "Unicorn Salts",
-			"source": "BoBH",
-			"type": "P",
-			"rarity": "uncommon",
-			"entries": [
-				"Prepared by a druid or leathdhia with the sacred water of a moonwell and poppy tears, this brew is generally used to receive a vision quest. It is also known to be strongly hallucinogenic. For 1 hour after you drink this potion, you can see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. When the effect ends, you must succeed on a {@dc 14} Wisdom saving throw or gain a random form of long-term madness (roll on the {@table Long-Term Madness|DMG} table on page 260 of the Dungeon Master's Guide). There is a 25 percent chance that you benefit from the spell {@spell commune} while under the influence this madness."
-			]
-		},
-		{
 			"name": "Witch-catcher",
 			"source": "BoBH",
 			"page": 219,
@@ -1106,7 +1107,10 @@
 			"type": "GV|DMG",
 			"requires": [
 				{
-					"weapon": true
+					"type": "M|PHB"
+				},
+				{
+					"type": "M|XPHB"
 				}
 			],
 			"excludes": {
@@ -2479,7 +2483,7 @@
 				{
 					"name": "Call Primal Beast (4/Day)",
 					"entries": [
-						"The leshen chooses what to summon and attempts a magical summoning. The leshen can summon {@dice 1d6} {@creature Primal Murder Of Crows}, {@dice 1d3 + 1} {@creature Primal Wolf||Primal Wolves} or 1 {@creature Primal Bear}. A summoned creature appears in an unoccupied space within 60 feet of the leshen, acts as an ally of its leshen. It remains for l hour, until it or its leshen dies, or until the leshen dismisses it as an action."
+						"The leshen chooses what to summon and attempts a magical summoning. The leshen can summon {@dice 1d6} {@creature Primal Murder Of Crows|BoBH}, {@dice 1d3 + 1} {@creature Primal Wolf|BoBH|Primal Wolves} or 1 {@creature Primal Bear|BoBH}. A summoned creature appears in an unoccupied space within 60 feet of the leshen, acts as an ally of its leshen. It remains for l hour, until it or its leshen dies, or until the leshen dismisses it as an action."
 					]
 				}
 			],
@@ -4182,32 +4186,28 @@
 							"style": "list-decimal",
 							"items": [
 								{
-									"type": "item",
-									"style": "italic",
+									"type": "itemSub",
 									"name": "Inebriated",
 									"entries": [
 										"The targeted creature must succeed on a {@dc 18} Constitution saving throw or if it moves on its turn it falls {@condition prone} and it has disadvantage on attack rolls until the start of the satyr's next turn."
 									]
 								},
 								{
-									"type": "item",
-									"style": "italic",
+									"type": "itemSub",
 									"name": "Hallucinating",
 									"entries": [
 										"The targeted creature must succeed on a {@dc 18} Wisdom saving throw or be {@condition frightened} of its allies and {@condition charmed} by its enemies until the start of the satyr's next turn."
 									]
 								},
 								{
-									"type": "item",
-									"style": "italic",
+									"type": "itemSub",
 									"name": "Compelled",
 									"entries": [
 										"The targeted creature must succeed on a {@dc 18} Wisdom saving throw or be {@condition charmed} by the satyr for 1 minute. While {@condition charmed}, the target must follow the satyr's commands. If the target takes damage, the effect ends."
 									]
 								},
 								{
-									"type": "item",
-									"style": "italic",
+									"type": "itemSub",
 									"name": "Talentless",
 									"entries": [
 										"The targeted creature must succeed on a {@dc 18} Charisma saving throw or until the start of the satyr's next turn whenever it makes an attack roll, an ability check or a saving throw, the target must roll a {@dice d8} and subtract the number rolled from the result."
@@ -4509,17 +4509,15 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Blood Addiction",
-									"style": "italic",
 									"entries": [
 										"In the presence of the blood of a fey creature the vampire fails automatically blood frenzy saving throws."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sunlight Hypersensitivity",
-									"style": "italic",
 									"entries": [
 										"While in sunlight, the vampire has disadvantage on attack rolls and ability checks."
 									]
@@ -5118,25 +5116,22 @@
 							"style": "list-decimal",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Asleep",
-									"style": "italic",
 									"entries": [
 										"The target falls {@condition unconscious}. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Panicked",
-									"style": "italic",
 									"entries": [
 										"The target is {@condition frightened}. On each of its turns, the {@condition frightened} creature must take the {@action Dash} action and move away from the chort by the safest and shortest available route, unless there is nowhere to move. If the target moves to a place at least 60 feet away from the chort where it can no longer see it, this effect ends."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sickened",
-									"style": "italic",
 									"entries": [
 										"The target has disadvantage on attack rolls and ability checks. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
@@ -6206,13 +6201,23 @@
 				"Waelen"
 			],
 			"cr": "3",
-			"trait": [
+			"spellcasting": [
 				{
 					"name": "Beast Bond",
-					"entries": [
-						"The ranger can cast beast bond at will, requiring no components. Its spellcasting ability for it is Wisdom."
-					]
-				},
+					"type": "spellcasting",
+					"headerEntries": [
+						"The ranger can cast {@spell beast bond|XGE} at will, requiring no components. Its spellcasting ability for it is Wisdom."
+					],
+					"will": [
+						{
+							"entry": "{@spell beast bond|XGE}",
+							"hidden": true
+						}
+					],
+					"ability": "wis"
+				}
+			],
+			"trait": [
 				{
 					"name": "Fey-Touched",
 					"entries": [
@@ -7022,7 +7027,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. Instead of dealing damage, the drowner can {@condition grapple} the target (escape {@dc 13})."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. Instead of dealing damage, the drowner can {@action grapple} the target (escape {@dc 13})."
 					]
 				}
 			],
@@ -7121,7 +7126,7 @@
 				{
 					"name": "Claws",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage. Instead of dealing damage, the drowner can {@condition grapple} the target (escape {@dc 12})."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage. Instead of dealing damage, the drowner can {@action grapple} the target (escape {@dc 12})."
 					]
 				},
 				{
@@ -10569,41 +10574,36 @@
 									"style": "list-no-bullets",
 									"items": [
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Acid:",
-											"style": "italic",
 											"entries": [
 												"the target takes 12 ({@damage 5d4}) acid damage at the end of its next turn."
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Cold:",
-											"style": "italic",
 											"entries": [
 												"the target's speed is halved until the end of its next turn."
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Fire:",
-											"style": "italic",
 											"entries": [
 												"If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 ({@damage 1d10}) fire damage at the start of each of its turns."
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Lightning:",
-											"style": "italic",
 											"entries": [
 												"the target must succeed on a {@dc 18} Constitution saving throw or be {@condition stunned} until the end of its next turn."
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Poison:",
-											"style": "italic",
 											"entries": [
 												"the target must succeed on a {@dc 18} Constitution saving throw or be {@condition poisoned} until the end of its next turn."
 											]
@@ -10958,25 +10958,22 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Absent Reflection",
-									"style": "italic",
 									"entries": [
 										"The vampire does not appear in mirrors or reflective surfaces."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Blood Addiction",
-									"style": "italic",
 									"entries": [
 										"If the vampire used successfully its bite or blood drain attack on a creature in the past 24 hours, the vampire has disadvantage on blood frenzy saving throws."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Dalvenite Allergy",
-									"style": "italic",
 									"entries": [
 										"The vampires is allergic to dalvenite, a costly alloy composed of meteoric steel and silver. If the vampire starts its turn within 5 feet of dalvenite it cannot use its Shapechanger and Monstrous Form feature until the end of its turn. The vampire automatically fails Strength ability checks to break dalvenite."
 									]
@@ -12898,25 +12895,22 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Blood Addiction",
-									"style": "italic",
 									"entries": [
 										"In the presence of the blood of its favorite type of prey, the vampire has disadvantage on blood frenzy saving throws."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Garlic Aversion",
-									"style": "italic",
 									"entries": [
 										"The vampire has a strong aversion to the smell of garlic. It cannot use its blindsight when garlic is present within its {@sense blindsight} range, and if the vampire comes within 5 feet of a clove of garlic, it is {@condition poisoned} until it leaves the area."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sunlight Hypersensitivity",
-									"style": "italic",
 									"entries": [
 										"While in sunlight, the vampire has disadvantage on attack rolls and ability checks."
 									]
@@ -16590,17 +16584,15 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Heightened Spell:",
-									"style": "italic",
 									"entries": [
 										"When it casts a spell that forces a creature to make a saving throw to resist the spell's effects, the navigator can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw against the spell."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Quickened Spell:",
-									"style": "italic",
 									"entries": [
 										"When it casts a spell that has a casting time of 1 action, the navigator can spend 2 sorcery points to change the casting time to 1 bonus action for this casting."
 									]
@@ -18591,34 +18583,30 @@
 							"style": "list-decimal",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Crush Will",
-									"style": "italic",
 									"entries": [
 										"The target must succeed on a {@dc 21} Charisma saving throw or be overwhelmed with despair for 1 minute. During this time, it can't attack or target any creature with harmful spells or other effects. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Devour Mind",
-									"style": "italic",
 									"entries": [
 										"The target must make a {@dc 21} Intelligence saving throw, taking 49 ({@damage 11d8}) psychic damage on a failed save, or half as much damage on a successful one. Also on a failure, roll {@dice 3d6}; if the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is {@condition stunned} until it regains at least one point of Intelligence.",
 										"The reduction lasts until the target finishes a long rest."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Dominate",
-									"style": "italic",
 									"entries": [
 										"The target must succeed on a {@dc 21} Wisdom saving throw or be {@condition charmed} by the spawn for 1 minute or until the target takes damage. The spawn can issue telepathic commands to the {@condition charmed} creature (no action required), which it does its best to obey."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Inner-Reconstruction",
-									"style": "italic",
 									"entries": [
 										"The target must make a {@dc 21} Constitution saving throw, taking 66 ({@damage 12d10}) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hit points by this damage dies and transforms at the start of the spawn's next turn. If the humanoid had 2 or fewer Hit Dice, it becomes a sea spawn. If it had 3 or more Hit Dice, it becomes a {@creature deep scion|MPMM}. The humanoid is under the spawn's control and acts immediately after the spawn in the initiative order. The target can't be returned to its original form by any means short of a {@spell wish} spell."
 									]
@@ -20692,17 +20680,15 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Repelled by Salt:",
-									"style": "italic",
 									"entries": [
 										"The shade can't willingly pass a line of salt by nonmagical means. If the shade tries to use teleportation to do so, it must first succeed on a {@dc 15} Charisma saving throw. Whether or not the attempt is successful, the shade takes 9 ({@damage 2d8}) radiant damage."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sunlight Hypersensitivity:",
-									"style": "italic",
 									"entries": [
 										"The shade takes 5 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
 									]
@@ -20967,7 +20953,7 @@
 					"will": [
 						"{@spell command}",
 						"{@spell blindness/deafness}",
-						"{@spell detect thougts}"
+						"{@spell detect thoughts}"
 					],
 					"daily": {
 						"2e": [
@@ -22649,25 +22635,22 @@
 							"style": "list-decimal",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Crush Will",
-									"style": "italic",
 									"entries": [
 										"The target must succeed on a {@dc 18} Charisma saving throw or be overwhelmed with despair for 1 minute. During this time, it can't attack or target any creature with harmful spells or other effects. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Devour Mind",
-									"style": "italic",
 									"entries": [
 										"The target must make a {@dc 18} Intelligence saving throw, taking 36 ({@damage 8d8}) psychic damage on a failed save, or half as much damage on a successful one. Also on a failure, roll {@dice 3d6}; if the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is {@condition stunned} until it regains at least one point of Intelligence. The reduction lasts until the target finishes a long rest."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Dominate",
-									"style": "italic",
 									"entries": [
 										"The target must succeed on a {@dc 18} Wisdom saving throw or be {@condition charmed} by the spawn for 1 minute or until the target takes damage. The spawn can issue telepathic commands to the {@condition charmed} creature (no action required), which it does its best to obey."
 									]
@@ -25459,25 +25442,22 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Call of the Moon:",
-									"style": "italic",
 									"entries": [
 										"During the night of the full moon, the true nature of the voref is revealed. The creature automatically polymorphs into its hybrid form and acts according to its alignment. The werewolf is also free to ignore its master's order during these nights."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Voice of the Master:",
-									"style": "italic",
 									"entries": [
 										"The voref is completely under the thrall of the person that cursed it. It is considered under the permanent effects of the dominate monster spell from its master."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Wolfsbane Allergy:",
-									"style": "italic",
 									"entries": [
 										"If the werewolf comes within 20 feet of aconitum flowers, it is {@condition poisoned} until it leaves the area. Weapons coated with aconitum oil ignore the damage invulnerabilities of the werewolf."
 									]
@@ -27087,7 +27067,7 @@
 					"type": "variant",
 					"name": "Corsair",
 					"entries": [
-						"Corsairs spend most of their time on naglfar ships, sailing the Astral Sea and honing their skills in skirmishes against {@creature githyanki warrior|MM|githyanki warriors}, {@creature githzekai monk|MM|githzekai monks} and other creatures of this dangerous plane. A corsair has a challenge rating of 5 (1,800 XP) and the following additional traits:",
+						"Corsairs spend most of their time on naglfar ships, sailing the Astral Sea and honing their skills in skirmishes against {@creature githyanki warrior|MM|githyanki warriors}, {@creature githzerai monk|MM|githzekai monks} and other creatures of this dangerous plane. A corsair has a challenge rating of 5 (1,800 XP) and the following additional traits:",
 						{
 							"type": "list",
 							"items": [
@@ -31761,13 +31741,13 @@
 													"type": "item",
 													"name": "Eerie Pipe",
 													"entries": [
-														"This singular looking pipe is carved in the ribcage bones of a child. When used by any other creature than a grave hag it acts as a {@item pipe of the sewers}, but when in the hands of the hag, it reveals new powers. The hag can play an eerie tune from the pipe as an action, expanding a charge and creating the following effects:",
+														"This singular looking pipe is carved in the ribcage bones of a child. When used by any other creature than a grave hag it acts as a {@item pipes of the sewers|DMG|pipe of the sewers}, but when in the hands of the hag, it reveals new powers. The hag can play an eerie tune from the pipe as an action, expanding a charge and creating the following effects:",
 														{
 															"type": "list",
 															"items": [
 																"The tune can only be heard by humanoid children and creatures with advantage on Wisdom ({@skill Perception}) checks. Only humanoid children are affected by the eerie pipe. Children that are {@condition deafened}, cannot be {@condition charmed} or can't be put to sleep with magic are immune to the pipe's effects.",
 																"While the pipe is played, all children within half a mile of it (as determined by the DM) are called. Called children move toward the music by the shortest available route.",
-																"Whenever children come within 30 feet of the hag while it plays the pipes, the children are swayed by the pipes' music and become {@condition charmed}, acting friendly toward the hag for as long as it continue to play the pipes each round as an action. {@condition charmed} children obey the hag's commands, even if they are obviously suicidal (\"jump by that cliff, walk in this river...\"). If no command is issued to a {@condition charmed} child, it defends itself but otherwise takes no actions. If a {@spell charmed} child starts its turn and can't hear the pipes' music, it is no longer {@condition charmed} and behaves as it normally would. After that the child can't be swayed by the pipes' music for the next 24 hours."
+																"Whenever children come within 30 feet of the hag while it plays the pipes, the children are swayed by the pipes' music and become {@condition charmed}, acting friendly toward the hag for as long as it continue to play the pipes each round as an action. {@condition charmed} children obey the hag's commands, even if they are obviously suicidal (\"jump by that cliff, walk in this river...\"). If no command is issued to a {@condition charmed} child, it defends itself but otherwise takes no actions. If a {@condition charmed} child starts its turn and can't hear the pipes' music, it is no longer {@condition charmed} and behaves as it normally would. After that the child can't be swayed by the pipes' music for the next 24 hours."
 															]
 														}
 													]
@@ -38059,7 +38039,7 @@
 						"The sea is tumultuous and violent in the region. Storms are frequent and unpredictable; the currents are treacherous and even the stars appear misaligned and alien when gazed upon.",
 						"The spawn can sense the presence of any sleeping creature within the region that has an Intelligence of 3 or higher, unless the creature is protected by a {@spell mind blank} spell. It knows the general direction of the creature but not its exact location.",
 						"Whenever a humanoid dies at sea within the region, roll a {@dice d8}. On an odd number, the dead creature rises up as a {@creature sea spawn|VGM} {@homebrew |(see Volo's Guide to Monsters)} {@dice 1d8} hours later, unless its body is destroyed.",
-						"When a creature magically divines information within the region, such as through an {@spell augury} or {@spell communion} spell, the star spawn can attack its mind. The creature must succeed on a {@dc 18} Intelligence saving throw. On a failure, it take 21 ({@damage 6d6}) psychic damage and is insane until it finishes a long rest. While insane, it can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A {@spell greater restoration} spell cast on the creature ends this effect."
+						"When a creature magically divines information within the region, such as through an {@spell augury} or {@spell commune|PHB|communion} spell, the star spawn can attack its mind. The creature must succeed on a {@dc 18} Intelligence saving throw. On a failure, it take 21 ({@damage 6d6}) psychic damage and is insane until it finishes a long rest. While insane, it can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A {@spell greater restoration} spell cast on the creature ends this effect."
 					]
 				},
 				"If the star spawn dies, these effects end immediately."
@@ -38385,7 +38365,7 @@
 				{
 					"name": "Warp",
 					"entries": [
-						"Many ghosts have the ability to manipulate reality, shapping it to reflect the constant pain they are experiencing. The creature can use the {@spell animate object}, {@spell seeming} and {@spell silence} spells once per short rest."
+						"Many ghosts have the ability to manipulate reality, shapping it to reflect the constant pain they are experiencing. The creature can use the {@spell animate objects}, {@spell seeming} and {@spell silence} spells once per short rest."
 					],
 					"type": "entries"
 				},

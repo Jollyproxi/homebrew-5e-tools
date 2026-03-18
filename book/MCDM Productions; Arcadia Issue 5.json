@@ -5,20 +5,21 @@
 				"json": "Ar5",
 				"abbreviation": "Ar5",
 				"full": "Arcadia Issue 5",
+				"url": "https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30",
+				"version": "1.0",
+				"dateReleased": "2021-06-23",
 				"authors": [
+					"MCDM Productions",
+					"Carlos Cisco",
 					"James Introcaso",
 					"Leon Barillaro",
-					"Carlos Cisco",
 					"Sam Mannell"
 				],
 				"convertedBy": [
-					"Somebody",
-					"Lyra [he/him]"
+					"Lyra [he/him]",
+					"Somebody"
 				],
-				"version": "1.0",
-				"url": "https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30",
-				"color": "22503d",
-				"dateReleased": "2021-06-23"
+				"color": "22503d"
 			}
 		],
 		"dependencies": {
@@ -29,8 +30,14 @@
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1626427893,
-		"dateLastModified": 1734389822,
-		"_dateLastModifiedHash": "10c6beb4ca"
+		"dateLastModified": 1772751660,
+		"_dateLastModifiedHash": "edd1879622"
+	},
+	"_test": {
+		"references": [
+			"Ar3",
+			"SaF"
+		]
 	},
 	"subclass": [
 		{
@@ -1039,65 +1046,57 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Four-armed",
-									"style": "italic",
 									"entries": [
 										"You sprout an extra set of arms, with which you can hold one item, such as an {@item arcane focus|PHB}, light weapon, or {@item shield|PHB}. You can use a bonus action on your turn to make a melee attack with that light weapon, regardless of what action you take on that turn. The cost of armor for your new body is doubled."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Four-legged",
-									"style": "italic",
 									"entries": [
 										"You sprout extra legs and become quadrupedal with a monster-shaped bottom and humanoid top. Your walking speed increases 10 feet, but the cost of clothing your new legs and feet is doubled."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Glowing Eyes",
-									"style": "italic",
 									"entries": [
 										"Your eyes take on a brilliant magical glow. You gain {@sense darkvision} out to a range of 60 feet, or double the range of your {@sense darkvision} if you already have it. Your magical glowing eyes emit dim light within 5 feet, cutting through even magical darkness."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Horns",
-									"style": "italic",
 									"entries": [
 										"You grow horns from your head, or your existing horns grow in size. When you move up to your speed on your turn, you can use your bonus action to make a melee attack with your horns. Strength is your ability for this unarmed strike, which deals {@damage 1d4} bludgeoning damage. Headgear made for humanoids no longer fits you, and you must spend an additional 20% on headgear for it to be tailored to your head."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sharp Claws",
-									"style": "italic",
 									"entries": [
 										"With the addition of claws, your unarmed strike now deals {@damage 1d4} slashing damage. However, whenever you make a Dexterity ({@skill Sleight of Hand}) check, or make an ability check using tools, roll {@dice 1d4} and subtract the number rolled from the check."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Acidic Sweat",
-									"style": "italic",
 									"entries": [
 										"Your skin constantly oozes a mucus-y slime that lingers on surfaces you touch. The slime disintegrates organic material such as wood and plants if left in place for 1 hour, and deals {@damage 1d4} acid damage to creatures (except for you) who touch it. This includes creatures you hit with a melee weapon attack."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Tough Skin",
-									"style": "italic",
 									"entries": [
 										"Your skin turns to bark or tough scales, giving you a +2 bonus to AC. Unfortunately, this new skin is difficult to move around in. Your Dexterity score is reduced by 2 while you are cursed."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Webbed Feet",
-									"style": "italic",
 									"entries": [
 										"You gain a swimming speed equal to your walking speed. Footwear made for most humanoid feet no longer fits you, and you must spend an additional 20% on footwear for it to be tailored to your new feet."
 									]
@@ -1576,7 +1575,7 @@
 				}
 			],
 			"entries": [
-				"For the duration, your eyes become pools of harsh yellow light. When a creature that can see your eyes starts its turn within 60 feet of you, you can force it to make a Constitution saving throw as long as you can see the creature and aren't {@condition incapcitated}. On a failure, the target takes {@damage 4d8} poison damage and {@damage 4d8} psychic damage, and is {@condition poisoned} until the start of its next turn. While {@condition poisoned} in this way, the creature is slowed and can't move more than 10 feet on a turn.",
+				"For the duration, your eyes become pools of harsh yellow light. When a creature that can see your eyes starts its turn within 60 feet of you, you can force it to make a Constitution saving throw as long as you can see the creature and aren't {@condition incapacitated}. On a failure, the target takes {@damage 4d8} poison damage and {@damage 4d8} psychic damage, and is {@condition poisoned} until the start of its next turn. While {@condition poisoned} in this way, the creature is slowed and can't move more than 10 feet on a turn.",
 				"A creature that isn't {@status surprised} can avert its gaze to avoid the saving throw at the start of its turn. If the creature does so, it can't see you until the start of its next turn, when it can choose to avert its eyes again. If the creature looks at you in the meantime, you can force it to immediately make the save.",
 				"If you see your eyes in a reflective surface (such as a mirror, polished breastplate, or the surface of a lake) within 60 feet of you, you are affected by your own gaze and must succeed on the saving throw or suffer the effects of the spell."
 			],
@@ -3323,40 +3322,35 @@
 									"name": "Interior Illustrations",
 									"items": [
 										{
-											"type": "item",
-											"style": "italic",
+											"type": "itemSub",
 											"name": "Wizard Stabbing Scrying Sensor:",
 											"entries": [
 												"Grace Cheung"
 											]
 										},
 										{
-											"type": "item",
-											"style": "italic",
+											"type": "itemSub",
 											"name": "Wizard's Fancy Signature:",
 											"entries": [
 												"Grace Cheung"
 											]
 										},
 										{
-											"type": "item",
-											"style": "italic",
+											"type": "itemSub",
 											"name": "Wizard Duel:",
 											"entries": [
 												"Linda Lithén"
 											]
 										},
 										{
-											"type": "item",
-											"style": "italic",
+											"type": "itemSub",
 											"name": "Goldmongers Subclasses:",
 											"entries": [
 												"Nick De Spain"
 											]
 										},
 										{
-											"type": "item",
-											"style": "italic",
+											"type": "itemSub",
 											"name": "Long Term Curses:",
 											"entries": [
 												"Gustavo Rodrigues"
@@ -3518,7 +3512,9 @@
 						},
 						{
 							"type": "quote",
-							"entries": [],
+							"entries": [
+								""
+							],
 							"by": "James Introcaso"
 						}
 					],
@@ -3817,10 +3813,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "Ar5",
-									"name": "Avarice",
+									"name": "Avarice Domain",
 									"className": "Cleric",
 									"classSource": "PHB",
-									"page": 12
+									"page": 12,
+									"shortName": "Avarice"
 								},
 								{
 									"type": "image",
@@ -3844,10 +3841,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "Ar5",
-									"name": "Gilded",
+									"name": "Circle of the Gilded",
 									"className": "Druid",
 									"classSource": "PHB",
-									"page": 14
+									"page": 14,
+									"shortName": "Gilded"
 								},
 								{
 									"type": "image",
@@ -3871,10 +3869,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "Ar5",
-									"name": "Acquisitions",
+									"name": "Oath of Acquisitions",
 									"className": "Paladin",
 									"classSource": "PHB",
-									"page": 17
+									"page": 17,
+									"shortName": "Acquisitions"
 								},
 								{
 									"type": "image",
@@ -4072,7 +4071,7 @@
 															"name": "6th Level",
 															"entries": [
 																"",
-																"{@spell Alabaster's Adaptation for the World Below|Ar5} (transmutation)",
+																"{@spell Alabaster's Adaptation (World Below)|Ar5|Alabaster's Adaptation for the World Below} (transmutation)",
 																"{@spell Gaze of Venom|Ar5} (evocation)"
 															]
 														}
@@ -4218,7 +4217,7 @@
 															"name": "6th Level",
 															"entries": [
 																"",
-																"{@spell Alabaster's Adaptation for the World Below|Ar5} (transmutation)",
+																"{@spell Alabaster's Adaptation (World Below)|Ar5|Alabaster's Adaptation for the World Below} (transmutation)",
 																"{@spell Gaze of Venom|Ar5} (evocation)"
 															]
 														},

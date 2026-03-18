@@ -5,21 +5,22 @@
 				"json": "Arcadia19",
 				"abbreviation": "Ar19",
 				"full": "Arcadia Issue 19 ",
+				"url": "https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30",
+				"version": "1.0",
+				"dateReleased": "2022-08-01",
 				"authors": [
+					"MCDM Productions",
+					"Amber Litke",
+					"Anthony Joyce-Rivera",
 					"Hannah Rose",
 					"Jacky Leung",
-					"Amber Litke",
-					"Sadie Lowry",
 					"Justice Ramin Arman",
-					"Anthony Joyce-Rivera"
+					"Sadie Lowry"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
 				],
-				"version": "1.0",
-				"color": "012f51",
-				"url": "https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30",
-				"dateReleased": "2022-08-01"
+				"color": "012f51"
 			}
 		],
 		"dependencies": {
@@ -36,8 +37,14 @@
 		],
 		"edition": "one",
 		"dateAdded": 1726660067,
-		"dateLastModified": 1752143166,
-		"_dateLastModifiedHash": "351a182b57"
+		"dateLastModified": 1772751660,
+		"_dateLastModifiedHash": "374885e86d"
+	},
+	"_test": {
+		"references": [
+			"Ar8",
+			"ILL"
+		]
 	},
 	"item": [
 		{
@@ -793,7 +800,7 @@
 				"stealth": "+7"
 			},
 			"senses": [
-				"blindsight 120 ft."
+				"Blindsight 120 ft."
 			],
 			"passive": 12,
 			"conditionImmune": [
@@ -965,7 +972,7 @@
 			"wis": 10,
 			"cha": 20,
 			"senses": [
-				"darkvision 30 ft."
+				"Darkvision 30 ft."
 			],
 			"passive": 10,
 			"languages": [
@@ -1981,25 +1988,22 @@
 									"name": "Interior Illustrations",
 									"items": [
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Cursed Treasures:",
-											"style": "italic",
 											"entries": [
 												"Grace Cheung"
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Divine Trials: Shadows of the Moon:",
-											"style": "italic",
 											"entries": [
 												"Zuzanna Wuzyk"
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Break in Case of TPK:",
-											"style": "italic",
 											"entries": [
 												"Henrik Rosenborg"
 											]

@@ -5,23 +5,23 @@
 				"json": "LyraChilli",
 				"abbreviation": "LsDsC",
 				"full": "Lyra's Dad's Chilli",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"version": "1",
 				"authors": [
 					"Lyra",
 					"Lyra's Dad"
 				],
 				"convertedBy": [
-					"Lyra"
+					"Lyra [he/him]"
 				],
-				"version": "1",
-				"color": "8f291d",
-				"url": "https://github.com/TheGiddyLimit/homebrew"
+				"color": "8f291d"
 			}
 		],
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1640121357,
-		"dateLastModified": 1731886430,
-		"_dateLastModifiedHash": "fe1e83de28"
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "aad60e5171"
 	},
 	"recipe": [
 		{
@@ -259,7 +259,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "https://i.imgur.com/KYGjyUv.jpg"
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/LyraChilli/KYGjyUv.jpg"
 					},
 					"title": "Lyra's Dad's Chilli",
 					"width": 4032,

@@ -5,19 +5,19 @@
 				"json": "TTNSP",
 				"abbreviation": "TTNSP",
 				"full": "Tigtone & the Never-Stopping Prophecy",
+				"url": "https://www.adultswim.com/misc/tigtonesquest/",
+				"version": "1",
+				"dateReleased": "2020-11-03",
 				"authors": [
 					"Adult Swim",
-					"Jeremy Melloul",
 					"Andrew Koehler",
-					"Benjamin Martian"
+					"Benjamin Martian",
+					"Jeremy Melloul"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
 				],
-				"version": "1",
-				"color": "2a4c03",
-				"url": "https://www.adultswim.com/misc/tigtonesquest/",
-				"dateReleased": "2020-11-03"
+				"color": "2a4c03"
 			}
 		],
 		"dependencies": {
@@ -28,8 +28,8 @@
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1706971134,
-		"dateLastModified": 1745789474,
-		"_dateLastModifiedHash": "a8520761e5"
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "9dee3d99d6"
 	},
 	"item": [
 		{
@@ -1003,33 +1003,29 @@
 							"style": "list-hang-notitle",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Forbiddance",
-									"style": "italic",
 									"entries": [
 										"The privateer can't enter a residence without an invitation from one of the occupants."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Harmed by Running Water",
-									"style": "italic",
 									"entries": [
 										"The privateer takes 20 acid damage when it ends its turn in running water."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Stake to the Heart",
-									"style": "italic",
 									"entries": [
 										"The privateer is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sunlight Hypersensitivity",
-									"style": "italic",
 									"entries": [
 										"The crewmate takes 20 radiant damage when it starts its turn in privateer. While in sunlight, it has disadvantage on attack rolls and ability checks."
 									]
@@ -1079,7 +1075,7 @@
 				{
 					"name": "Children of the Jungle (1/Day)",
 					"entries": [
-						"The flower vampire magically calls {@dice 2d4} {@creature swarm of stirges|MME|swarms of stirges} or {@creature Swarm of Poisonous Snakes|MM|poisonous snakes}, provided that the sun isn't up. While outdoors, the flower vampire can call {@dice 3d6} {@creature panther|MM|panthers} or {@creature Giant Poisonous Snake|MM|giant poisonous snakes} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+						"The flower vampire magically calls {@dice 2d4} {@creature swarm of stirges|XMM|swarms of stirges} or {@creature Swarm of Poisonous Snakes|MM|poisonous snakes}, provided that the sun isn't up. While outdoors, the flower vampire can call {@dice 3d6} {@creature panther|MM|panthers} or {@creature Giant Poisonous Snake|MM|giant poisonous snakes} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
 					]
 				}
 			],
@@ -1328,9 +1324,8 @@
 							"type": "list",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Earth Tremor",
-									"style": "italic",
 									"entries": [
 										"The targeted creature must succeed on a {@dc 11} Dexterity saving throw or take {@damage 1d6} bludgeoning damage and be knocked {@condition prone}. If the ground in that area is loose earth or stone, it becomes {@quickref difficult terrain||3} until cleared, with each 5-foot-diameter area requiring at least 1 minute to clear by hand."
 									]
@@ -2315,33 +2310,29 @@
 							"style": "list-hang-notitle",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Forbiddance",
-									"style": "italic",
 									"entries": [
 										"The crewmate can't enter a residence without an invitation from one of the occupants."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Harmed by Running Water",
-									"style": "italic",
 									"entries": [
 										"The crewmate takes 20 acid damage when it ends its turn in running water."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Stake to the Heart",
-									"style": "italic",
 									"entries": [
 										"The crewmate is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sunlight Hypersensitivity",
-									"style": "italic",
 									"entries": [
 										"The crewmate takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
 									]
@@ -2894,33 +2885,29 @@
 							"style": "list-hang-notitle",
 							"items": [
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Forbiddance",
-									"style": "italic",
 									"entries": [
 										"The privateer can't enter a residence without an invitation from one of the occupants."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Harmed by Running Water",
-									"style": "italic",
 									"entries": [
 										"The privateer takes 20 acid damage when it ends its turn in running water."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Stake to the Heart",
-									"style": "italic",
 									"entries": [
 										"The privateer is destroyed if a piercing weapon made of wood is driven into its heart while it is {@condition incapacitated} in its resting place."
 									]
 								},
 								{
-									"type": "item",
+									"type": "itemSub",
 									"name": "Sunlight Hypersensitivity",
-									"style": "italic",
 									"entries": [
 										"The crewmate takes 20 radiant damage when it starts its turn in privateer. While in sunlight, it has disadvantage on attack rolls and ability checks."
 									]
@@ -4347,7 +4334,7 @@
 								"In an attempt to convince the adventurers to side with her, {@creature Mythhollow|TTNSP} reveals the oracles' con, calling them out as charlatans who crafted a cursed item. The item is the {@item Special Sash|TTNSP}\u2014a beautiful white sash with gold trim, which hangs around her armor, which compels heroes to become villains and keeps the oracles informed of the villain's actions so they can fabricate prophecies to support their claim as oracles. The oracles use these prophecies to garner favor with the townspeople, support their tourism and merchandise businesses, and send heroes after villains. When the villains are defeated, the sash and its curse transfers to the hero in question, keeping the perpetual loop of villainy going so the oracles never run out of prophecies to give.",
 								"{@creature Mythhollow|TTNSP} has no intention of destroying the world, as the oracles claim. She simply wishes to permanently free herself from the curse, raze their temple to the ground, and bring their prophecy tourism economy to its knees! Were she to take and wear the {@item Plot Armor|TTNSP}, the curse over her would break and the oracles' business could come to an end.",
 								"If the heroes agree to give {@creature Mythhollow|TTNSP} the {@item Plot Armor|TTNSP}, she immediately puts it on and invites them to return to Azpehrun with her in order to confront the oracles.",
-								"If the adventurers refuse to give {@creature Mythhollow|TTNSP} the {@item Plot Armor|TTNSP}, she does her best to take it from them, immediately engaging them in combat. If there are more than four characters in the party, have one of the mercenaries below join {@creature Mythhollow|TTNSP} in combat for each additional party member. Of course, if the party successfully defeats {@creature Mythhollow|TTNSP}, the curse threatens to plague one of their party. (See the {@item cursed sash|TTNSP} description below.)",
+								"If the adventurers refuse to give {@creature Mythhollow|TTNSP} the {@item Plot Armor|TTNSP}, she does her best to take it from them, immediately engaging them in combat. If there are more than four characters in the party, have one of the mercenaries below join {@creature Mythhollow|TTNSP} in combat for each additional party member. Of course, if the party successfully defeats {@creature Mythhollow|TTNSP}, the curse threatens to plague one of their party. (See the {@item Special Sash|TTNSP|cursed sash} description below.)",
 								{
 									"type": "entries",
 									"name": "Mythhollow",

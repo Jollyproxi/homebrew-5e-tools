@@ -6,27 +6,34 @@
 				"abbreviation": "Ar8",
 				"full": "Arcadia Issue 8",
 				"url": "https://shop.mcdmproductions.com/collections/arcadia/products/arcadia-complete-bundle-issues-1-30",
+				"version": "10/2021",
+				"dateReleased": "2021-09-29",
 				"authors": [
-					"James Intracaso",
-					"Matt Colville",
+					"MCDM Productions",
+					"Bianca Bickford",
+					"James Introcaso",
 					"Jessica Marcrum",
-					"V.J. Harris",
-					"Bianca Bickford"
+					"Matt Colville",
+					"V.J. Harris"
 				],
 				"convertedBy": [
 					"ForeverAlwaysGM (Billiam94)",
 					"Lyra [he/him]"
 				],
-				"version": "10/2021",
-				"dateReleased": "2021-09-29",
 				"color": "2acc74"
 			}
 		],
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1649542017,
-		"dateLastModified": 1746523369,
-		"_dateLastModifiedHash": "a0cfb3ab83"
+		"dateLastModified": 1772754260,
+		"_dateLastModifiedHash": "ba1b24c473"
+	},
+	"_test": {
+		"references": [
+			"KaW",
+			"SaF"
+		]
 	},
 	"subclass": [
 		{
@@ -3068,7 +3075,7 @@
 				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/Ar8/cover.webp"
 			},
 			"published": "2021-09-29",
-			"author": "MCDM",
+			"author": "James Intracaso, Matt Colville, Jessica Marcrum, V.J. Harris, Bianca Bickford",
 			"contents": [
 				{
 					"name": "Cover Page & Credits"
@@ -3253,25 +3260,22 @@
 									"name": "Interior Illustrations:",
 									"entries": [
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Subclasses of the Hag:",
-											"style": "italic",
 											"entries": [
 												"Grace Cheung"
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "Monstrous Spell Components:",
-											"style": "italic",
 											"entries": [
 												"Nick De Spain"
 											]
 										},
 										{
-											"type": "item",
+											"type": "itemSub",
 											"name": "The Emerald Exchange:",
-											"style": "italic",
 											"entries": [
 												"Elisa Serio"
 											]
@@ -3286,18 +3290,67 @@
 									]
 								},
 								{
-									"type": "item",
+									"type": "list",
+									"style": "list-hang",
+									"page": "C2",
 									"name": "MCDM is:",
-									"entries": [
-										"",
-										"Lars Bakke: Development & Production",
-										"Jerod Bennett: Technology",
-										"Grace Cheung: Art",
-										"Matt Colville: Writing & Design",
-										"Anna Coulter: Production & Operations",
-										"Nick De Spain: Art & Art Outsource Management",
-										"Jason Hasenauer: Art & Art Direction",
-										"James Introcaso: RPG Line Developer"
+									"items": [
+										{
+											"type": "item",
+											"name": "Lars Bakke:",
+											"entries": [
+												"Development & Production"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Jerod Bennett:",
+											"entries": [
+												"Technology"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Grace Cheung:",
+											"entries": [
+												"Art"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Matt Colville:",
+											"entries": [
+												"Writing & Design"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Anna Coulter:",
+											"entries": [
+												"Production & Operations"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Nick De Spain:",
+											"entries": [
+												"Art & Art Outsource Management"
+											]
+										},
+										{
+											"type": "item",
+											"name": "Jason Hasenauer:",
+											"entries": [
+												"Art & Art Direction"
+											]
+										},
+										{
+											"type": "item",
+											"name": "James Introcaso:",
+											"entries": [
+												"RPG Line Developer"
+											]
+										}
 									]
 								},
 								{
@@ -3408,7 +3461,9 @@
 						},
 						{
 							"type": "quote",
-							"entries": [],
+							"entries": [
+								""
+							],
 							"by": "James Introcaso, Managing Editor"
 						}
 					],
@@ -3519,10 +3574,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "Ar8",
-									"name": "Hag",
+									"name": "Hag Patron",
 									"className": "Warlock",
 									"classSource": "PHB",
-									"page": 4
+									"page": 4,
+									"shortName": "Hag"
 								}
 							],
 							"id": "00a"
@@ -3547,10 +3603,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "Ar8",
-									"name": "Wicked Witch",
+									"name": "Wicked Witch Sorcerous Origin",
 									"className": "Sorcerer",
 									"classSource": "PHB",
-									"page": 7
+									"page": 7,
+									"shortName": "Wicked Witch"
 								}
 							],
 							"id": "00c"
@@ -3575,10 +3632,11 @@
 									"type": "statblock",
 									"prop": "subclass",
 									"source": "Ar8",
-									"name": "Grandmother's Tales",
+									"name": "College of Grandmother's Tales",
 									"className": "Bard",
 									"classSource": "PHB",
-									"page": 8
+									"page": 8,
+									"shortName": "Grandmother's Tales"
 								}
 							],
 							"id": "00d"

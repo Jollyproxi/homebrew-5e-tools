@@ -5,22 +5,22 @@
 				"json": "LLLaserLlama",
 				"abbreviation": "LLLL",
 				"full": "Laser Llama",
+				"url": "https://www.gmbinder.com/share/-O7o2cNFhle7UKgXAMkk",
+				"version": "v1",
+				"dateReleased": "2025-03-19",
 				"authors": [
 					"LaserLlama"
 				],
 				"convertedBy": [
 					"Lyra [he/him]"
-				],
-				"version": "v1",
-				"url": "https://www.gmbinder.com/share/-O7o2cNFhle7UKgXAMkk",
-				"dateReleased": "2025-03-19"
+				]
 			}
 		],
 		"edition": "one",
 		"status": "ready",
 		"dateAdded": 1745013823,
-		"dateLastModified": 1745013823,
-		"_dateLastModifiedHash": "003fbfa0ca"
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "3fa0caf387"
 	},
 	"monster": [
 		{
@@ -178,7 +178,7 @@
 				"intimidation": "+6"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"Darkvision 60 ft."
 			],
 			"immune": [
 				"poison"

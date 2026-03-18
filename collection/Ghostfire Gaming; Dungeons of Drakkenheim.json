@@ -5,16 +5,16 @@
 				"json": "DungeonsDrakkenheim",
 				"abbreviation": "DoDk",
 				"full": "Dungeons of Drakkenheim",
+				"url": "https://marketplace.dndbeyond.com/category/SRC-00131",
+				"version": "1.0.0",
+				"dateReleased": "2023-12-21",
 				"authors": [
 					"Ghostfire Gaming"
 				],
 				"convertedBy": [
 					"Giddy"
 				],
-				"version": "1.0.0",
 				"partnered": true,
-				"url": "https://marketplace.dndbeyond.com/category/SRC-00131",
-				"dateReleased": "2023-12-21",
 				"color": "825494",
 				"colorNight": "9661ab"
 			}
@@ -29,8 +29,13 @@
 		],
 		"edition": "classic",
 		"dateAdded": 1751124424,
-		"dateLastModified": 1751386207,
-		"_dateLastModifiedHash": "2f9b250349"
+		"dateLastModified": 1772404109,
+		"_dateLastModifiedHash": "31f4b8a1a0"
+	},
+	"_test": {
+		"references": [
+			"MonstersOfDrakkenheim"
+		]
 	},
 	"background": [
 		{
@@ -3244,6 +3249,12 @@
 			"name": "Aqua Delerium",
 			"source": "DungeonsDrakkenheim",
 			"page": 230,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Aqua Delerium|MonstersOfDrakkenheim"
+				}
+			],
 			"type": "P",
 			"rarity": "rare",
 			"entries": [
@@ -3262,6 +3273,12 @@
 			"name": "Aqua Expurgo",
 			"source": "DungeonsDrakkenheim",
 			"page": 230,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Aqua Expurgo|MonstersOfDrakkenheim"
+				}
+			],
 			"type": "P",
 			"rarity": "rare",
 			"entries": [
@@ -4102,7 +4119,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Aqua Delerium.webp"
-					}
+					},
+					"width": 851,
+					"height": 1000
 				}
 			]
 		},
@@ -4115,7 +4134,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Aqua Expurgo.webp"
-					}
+					},
+					"width": 1000,
+					"height": 798
 				}
 			]
 		},
@@ -4128,7 +4149,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Bottled Comet.webp"
-					}
+					},
+					"width": 996,
+					"height": 1000
 				}
 			]
 		},
@@ -4141,7 +4164,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Delerium-Forged Blade.webp"
-					}
+					},
+					"width": 1000,
+					"height": 688
 				}
 			]
 		},
@@ -4154,7 +4179,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Hardened Delerium-tipped Arrows.webp"
-					}
+					},
+					"width": 1000,
+					"height": 745
 				}
 			]
 		},
@@ -4167,7 +4194,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Inscrutable Staff.webp"
-					}
+					},
+					"width": 1000,
+					"height": 481
 				}
 			]
 		},
@@ -4180,7 +4209,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Refined Delerium Dust.webp"
-					}
+					},
+					"width": 882,
+					"height": 1000
 				}
 			]
 		},
@@ -4193,16 +4224,63 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/items/Sceptre of Saint Vitruvio.webp"
-					}
+					},
+					"width": 1000,
+					"height": 571
 				}
 			]
 		}
 	],
 	"monster": [
 		{
+			"name": "Academy Mage",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Academy Mage|MonstersOfDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Mage",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Amethyst Academy Mage Dragonborn.webp"
+			},
+			"tokenCustom": true
+		},
+		{
+			"name": "Air Elemental",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Air Elemental|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Air Elemental",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Air Elemental.webp"
+			}
+		},
+		{
 			"name": "Amalgamation",
 			"source": "DungeonsDrakkenheim",
 			"page": 206,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Amalgamation|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"G"
 			],
@@ -4377,8 +4455,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Amalgamation.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Amalgamation.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Amalgamation.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Immutable Form",
 				"Legendary Resistances",
@@ -4431,6 +4519,12 @@
 			"name": "Animated Delerium Sludge",
 			"source": "DungeonsDrakkenheim",
 			"page": 203,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Animated Delerium Sludge|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -4520,8 +4614,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Animated Delerium Sludge.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Animated%20Delerium%20Sludge.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Animated Delerium Sludge.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"senseTags": [
 				"D"
 			],
@@ -4549,6 +4653,12 @@
 			"name": "Arcane Wraith",
 			"source": "DungeonsDrakkenheim",
 			"page": 197,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Arcane Wraith|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Wraith",
 				"source": "MM"
@@ -4579,9 +4689,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Arcane Wraith.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Arcane%20Wraith.webp"
 			},
 			"tokenCredit": "Jeff Balch",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Arcane Wraith.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"damageTagsSpell": [
 				"L",
 				"O"
@@ -4601,6 +4721,12 @@
 			"isNamedCreature": true,
 			"source": "DungeonsDrakkenheim",
 			"page": 163,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Big Linda|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"H"
 			],
@@ -4668,8 +4794,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Big Linda.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Big%20Linda.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Big Linda.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"senseTags": [
 				"B"
 			],
@@ -4696,9 +4832,37 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Cat",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 27,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Cat|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Cat",
+				"source": "MM"
+			},
+			"familiar": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Cat.webp"
+			},
+			"tokenCustom": true
+		},
+		{
 			"name": "Cavalier",
 			"source": "DungeonsDrakkenheim",
 			"page": 218,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Silver Order Cavalier|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -4812,8 +4976,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Cavalier.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Cavalier.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Cavalier.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"javelin|phb",
 				"lance|phb"
@@ -4969,8 +5143,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Chaplain.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Missionary.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Chaplain.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"spear|phb"
 			],
@@ -5008,6 +5192,12 @@
 			"name": "Crater Wurm",
 			"source": "DungeonsDrakkenheim",
 			"page": 197,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Crater Wurm|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Purple Worm",
 				"source": "MM",
@@ -5043,8 +5233,19 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Crater Wurm.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Crater%20Wurm.webp"
 			},
+			"foundryTokenScale": 1.6,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Crater Wurm.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -5052,6 +5253,12 @@
 			"name": "Crimson Countess",
 			"source": "DungeonsDrakkenheim",
 			"page": 208,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Crimson Countess|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -5152,8 +5359,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Crimson Countess.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/The%20Crimson%20Countess.webp"
 			},
+			"foundryTokenScale": 1.2,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Crimson Countess.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"javelin|phb"
 			],
@@ -5196,6 +5414,12 @@
 			"name": "Delerium Dreg",
 			"source": "DungeonsDrakkenheim",
 			"page": 199,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Delerium Dreg|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -5484,8 +5708,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Delerium Dreg.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Delerium%20Dreg.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Delerium Dreg.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"spear|phb"
 			],
@@ -5775,11 +6009,56 @@
 			]
 		},
 		{
+			"name": "Dust Mephit",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 29,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Dust Mephit|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Dust Mephit",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Dust Mephit.webp"
+			}
+		},
+		{
+			"name": "Earth Elemental",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Earth Elemental|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Earth Elemental",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Earth Elemental.webp"
+			}
+		},
+		{
 			"name": "Eldrick Runeweaver",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "DungeonsDrakkenheim",
 			"page": 215,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Eldrick Runeweaver|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -5979,8 +6258,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Eldrick Runeweaver.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Eldrick%20Runeweaver.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Eldrick Runeweaver.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Legendary Resistances",
 				"Magic Resistance"
@@ -6029,6 +6318,12 @@
 			"name": "Entropic Flame",
 			"source": "DungeonsDrakkenheim",
 			"page": 204,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Entropic Flame|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -6121,8 +6416,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Entropic Flame.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Entropic%20Flame.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Entropic Flame.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Illumination"
 			],
@@ -6325,8 +6630,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Eoghan Ghostweaver.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Eoghan.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Eoghan Ghostweaver.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"dagger|phb"
 			],
@@ -6376,6 +6691,12 @@
 			"name": "Executioner",
 			"source": "DungeonsDrakkenheim",
 			"page": 209,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Executioner|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"H"
 			],
@@ -6507,8 +6828,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Executioner.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/The Executioner.webp"
 			},
+			"foundryTokenScale": 2.1,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Executioner.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Immutable Form",
 				"Legendary Resistances",
@@ -6537,9 +6869,34 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Fire Elemental",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Fire Elemental|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Fire Elemental",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Fire Elemental.webp"
+			}
+		},
+		{
 			"name": "Garmyr",
 			"source": "DungeonsDrakkenheim",
 			"page": 197,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Garmyr Warrior|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Gnoll",
 				"source": "MM",
@@ -6554,15 +6911,68 @@
 			"type": "monstrosity",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Garmyr.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Garmyr Warrior.webp"
 			},
 			"tokenCredit": "Powerscorerpg",
+			"foundryTokenScale": 1.2,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Garmyr.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"hasFluff": true
+		},
+		{
+			"name": "Gertrude Ironhelm",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Gertrude Ironhelm|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Gladiator",
+				"source": "MM",
+				"_mod": {
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "the gladiator",
+							"with": "Gertrude",
+							"flags": "i"
+						}
+					]
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Gertrude Ironhelm.webp"
+			}
 		},
 		{
 			"name": "Gravekeeper",
 			"source": "DungeonsDrakkenheim",
 			"page": 210,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Gravekeeper|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -6715,9 +7125,19 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Gravekeeper.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Gravekeeper.webp"
 			},
 			"tokenCredit": "Louis Wood",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Gravekeeper.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Legendary Resistances"
 			],
@@ -6755,6 +7175,12 @@
 			"name": "Grotesque Gargant",
 			"source": "DungeonsDrakkenheim",
 			"page": 197,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Grotesque Gargantuan|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Stone Giant",
 				"source": "MM",
@@ -6792,9 +7218,20 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Grotesque Gargant.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Grotesque%20Gargant.webp"
 			},
 			"tokenCredit": "Erebus88",
+			"foundryTokenScale": 2.1,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Grotesque Gargant.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Camouflage",
 				"Regeneration"
@@ -6805,6 +7242,12 @@
 			"name": "Haze Hulk",
 			"source": "DungeonsDrakkenheim",
 			"page": 200,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Haze Hulk|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -6923,8 +7366,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Haze Hulk.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Haze%20Hulk.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Haze Hulk.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"senseTags": [
 				"D"
 			],
@@ -7008,6 +7461,12 @@
 			"name": "Haze Husk",
 			"source": "DungeonsDrakkenheim",
 			"page": 197,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Haze Husk|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Zombie",
 				"source": "MM",
@@ -7029,9 +7488,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Haze Husk.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Haze%20Husk.webp"
 			},
 			"tokenCredit": "Joshua Culp",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Haze Husk.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"savingThrowForced": [
 				"constitution"
 			],
@@ -7041,6 +7510,12 @@
 			"name": "Haze Wight",
 			"source": "DungeonsDrakkenheim",
 			"page": 198,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Haze Wight|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Wight",
 				"source": "MM",
@@ -7086,15 +7561,31 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Haze Wight.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Haze%20Wight.webp"
 			},
 			"tokenCredit": "Igor Krstic",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Haze Wight.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"hasFluff": true
 		},
 		{
 			"name": "Hedge Mage",
 			"source": "DungeonsDrakkenheim",
 			"page": 219,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Academy Mage|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -7175,8 +7666,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Hedge Mage.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Academy Mage.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Hedge Mage.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"dagger|phb"
 			],
@@ -7209,9 +7710,35 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Homunculus",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 27,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Homunculus|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Homunculus",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Homunculus.webp"
+			}
+		},
+		{
 			"name": "Hypnotic Eldritch Blossom",
 			"source": "DungeonsDrakkenheim",
 			"page": 205,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Hypnotic Eldritch Blossom|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -7279,8 +7806,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Hypnotic Eldritch Blossom.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Hypnotic%20Eldritch%20Blossom.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Hypnotic Eldritch Blossom.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"False Appearance"
 			],
@@ -7299,9 +7836,131 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Ice Mephit",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 29,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Ice Mephit|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Ice Mephit",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Ice Mephit.webp"
+			}
+		},
+		{
+			"name": "Imp",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 27,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Imp|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Imp",
+				"source": "MM"
+			},
+			"familiar": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Imp.webp"
+			}
+		},
+		{
+			"name": "Innkeeper",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Commoner|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Commoner",
+				"source": "MM",
+				"_mod": {
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "the commoner",
+							"with": "Innkeeper",
+							"flags": "i"
+						}
+					]
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"tiefling"
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Innkeeper.webp"
+			}
+		},
+		{
+			"name": "Invisible Stalker",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Invisible Stalker|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Invisible Stalker",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Invisible Stalker.webp"
+			}
+		},
+		{
+			"name": "Iron Golem",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 27,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Iron Golem|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Iron Golem",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Iron Golem.webp"
+			}
+		},
+		{
 			"name": "Knight-Captain Theodore Marshal",
 			"source": "DungeonsDrakkenheim",
 			"page": 215,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Knight-Captain Theodore Marshal|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -7457,8 +8116,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Knight-Captain Theodore Marshal.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Knight%20Captain%20Theodore%20Marshal.webp"
 			},
+			"foundryTokenScale": 1.4,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Knight-Captain Theodore Marshal.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Legendary Resistances"
 			],
@@ -7501,6 +8171,12 @@
 			"isNamedCreature": true,
 			"source": "DungeonsDrakkenheim",
 			"page": 134,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Lenore von Kessel|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Medusa",
 				"source": "MM",
@@ -7533,8 +8209,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lenore von Kessel.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Lenore.webp"
 			},
+			"foundryTokenScale": 1.4,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lenore von Kessel.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"savingThrowForced": [
 				"constitution"
 			],
@@ -7545,6 +8232,12 @@
 			"name": "Living Deep Haze",
 			"source": "DungeonsDrakkenheim",
 			"page": 204,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Living Deep Haze|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -7636,8 +8329,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Living Deep Haze.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Living%20Deep%20Haze.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Living Deep Haze.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"senseTags": [
 				"D"
 			],
@@ -7664,6 +8367,12 @@
 			"name": "Lord Commander Elias Drexel",
 			"source": "DungeonsDrakkenheim",
 			"page": 214,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Lord Commander Elias Drexel|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -7841,8 +8550,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lord Commander Elias Drexel.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Lord%20Commander%20Elias%20Drexel.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lord Commander Elias Drexel.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"longbow|phb",
 				"longsword|phb"
@@ -7883,6 +8602,12 @@
 			"name": "Lord of the Feast",
 			"source": "DungeonsDrakkenheim",
 			"page": 211,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Lord of the Feast|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -8019,8 +8744,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lord of the Feast.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/The%20Lord%20Of%20The%20Feast.webp"
 			},
+			"foundryTokenScale": 1.4,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lord of the Feast.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Legendary Resistances",
 				"Regeneration"
@@ -8060,6 +8796,12 @@
 			"isNamedCreature": true,
 			"source": "DungeonsDrakkenheim",
 			"page": 216,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Lucretia Mathias|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -8277,8 +9019,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lucretia Mathias.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Lucretia%20Mathias.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Lucretia Mathias.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Legendary Resistances"
 			],
@@ -8324,11 +9076,73 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Magma Mephit",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 29,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Magma Mephit|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Magma Mephit",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Magma Mephit.webp"
+			}
+		},
+		{
+			"name": "Master of the Forge",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Master of the Forge|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Priest",
+				"source": "MM",
+				"_mod": {
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "the priest",
+							"with": "Master of the Forge",
+							"flags": "i"
+						}
+					]
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf"
+				]
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Master of the Forge.webp"
+			}
+		},
+		{
 			"name": "Minazorond",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "DungeonsDrakkenheim",
 			"page": 183,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Minazorond|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"G"
 			],
@@ -8541,8 +9355,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Minazorond.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Minazorond.webp"
 			},
+			"foundryTokenScale": 2.1,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Minazorond.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Amphibious",
 				"False Appearance",
@@ -8589,6 +9414,26 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Mud Mephit",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 29,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Mud Mephit|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Mud Mephit",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Mud Mephit.webp"
+			}
 		},
 		{
 			"name": "Oscar Yoren",
@@ -8716,8 +9561,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Oscar Yoren.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Oscaryoren.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Oscar Yoren.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"dagger|phb"
 			],
@@ -8760,6 +9615,12 @@
 			"name": "Pale Man",
 			"source": "DungeonsDrakkenheim",
 			"page": 212,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Pale Man|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -8967,8 +9828,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Pale Man.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Pale%20Man.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Pale Man.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Legendary Resistances"
 			],
@@ -9022,6 +9893,12 @@
 			"name": "Protean Abomination",
 			"source": "DungeonsDrakkenheim",
 			"page": 201,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Protean Abomination|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"H"
 			],
@@ -9103,8 +9980,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Protean Abomination.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Protean%20Abomination.webp"
 			},
+			"foundryTokenScale": 1.4,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Protean Abomination.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Amorphous",
 				"Spider Climb"
@@ -9133,9 +10021,34 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Psuedodragon",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Psuedodragon|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Pseudodragon",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Psuedodragon.webp"
+			}
+		},
+		{
 			"name": "Queen of Thieves",
 			"source": "DungeonsDrakkenheim",
 			"page": 217,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Queen of Thieves|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -9365,8 +10278,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Queen of Thieves.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Queen%20Of%20Thieves.webp"
 			},
+			"foundryTokenScale": 1.4,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Queen of Thieves.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"+3 rapier|dmg",
 				"dagger|phb"
@@ -9426,6 +10350,12 @@
 			"name": "Rat Prince",
 			"source": "DungeonsDrakkenheim",
 			"page": 213,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Rat Prince|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"M"
 			],
@@ -9525,8 +10455,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Rat Prince.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Rat%20Prince.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Rat Prince.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"hand crossbow|phb"
 			],
@@ -9561,6 +10501,12 @@
 			"name": "Ratling",
 			"source": "DungeonsDrakkenheim",
 			"page": 202,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Ratling Warrior|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"S"
 			],
@@ -9643,8 +10589,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Ratling.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Ratling.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Ratling.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"sling|phb"
 			],
@@ -9665,6 +10621,149 @@
 			"miscTags": [
 				"MW",
 				"RW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ryan Greymere",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Ryan Greymere|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Archmage",
+				"source": "MM",
+				"_mod": {
+					"*": [
+						{
+							"mode": "replaceTxt",
+							"replace": "the archmage",
+							"with": "Ryan",
+							"flags": "i"
+						}
+					]
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"type": "spellcasting",
+					"headerEntries": [
+						"Ryan is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). Ryan can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell shocking grasp}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell mage armor}*",
+								"{@spell magic missile}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell lightning bolt}",
+								"{@spell purge contamination|DungeonsDrakkenheim}",
+								"{@spell ride the rifts|DungeonsDrakkenheim}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell fire shield}",
+								"{@spell stoneskin}*"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell scrying}",
+								"{@spell wall of force}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell globe of invulnerability}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell octarine spray|DungeonsDrakkenheim}",
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell mind blank}*"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell time stop}"
+							]
+						}
+					},
+					"footerEntries": [
+						"*Ryan casts these spells on itself before combat."
+					],
+					"ability": "int",
+					"hidden": [
+						"will"
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Ryan Greymere.webp"
+			},
+			"attachedItems": [
+				"dagger|phb",
+				"hazewalker plate|DungeonsDrakkenheim",
+				"wand of lightning bolts|dmg",
+				"winged boots|dmg"
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
@@ -9804,9 +10903,20 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Saint Gresha.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Saint%20Gresha.webp"
 			},
 			"tokenCredit": "Andrew Sonea",
+			"tokenCustom": true,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Saint Gresha.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Incorporeal Movement",
 				"Sunlight Sensitivity"
@@ -9956,8 +11066,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Scoundrel.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Scoundrel.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Scoundrel.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"hand crossbow|phb",
 				"shortsword|phb"
@@ -9992,9 +11112,115 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Shield Guardian",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 27,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Shield Guardian|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Shield Guardian",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Shield Guardian.webp"
+			}
+		},
+		{
+			"name": "Silver Order Guard",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Silver Order Squire|MonstersOfDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Guard",
+				"source": "MM"
+			},
+			"type": "humanoid",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/MonstersOfDrakkenheim/Tokens/Drakkenheim/Silver%20Order%20Squire.webp"
+			}
+		},
+		{
+			"name": "Silver Order Knight",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Silver Order Recruit|MonstersOfDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Knight",
+				"source": "MM"
+			},
+			"type": "humanoid",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/MonstersOfDrakkenheim/Tokens/Drakkenheim/Silver%20Order%20Recruit.webp"
+			}
+		},
+		{
+			"name": "Smoke Mephit",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 29,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Smoke Mephit|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Smoke Mephit",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Smoke Mephit.webp"
+			}
+		},
+		{
+			"name": "Steam Mephit",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"page": 29,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Steam Mephit|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Steam Mephit",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Steam Mephit.webp"
+			}
+		},
+		{
 			"name": "Tower Dragon",
 			"source": "DungeonsDrakkenheim",
 			"page": 198,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Tower Dragon|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Young Bronze Dragon",
 				"source": "MM",
@@ -10077,8 +11303,19 @@
 			"cr": "10",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Tower Dragon.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Tower%20Dragon.webp"
 			},
+			"foundryTokenScale": 2.1,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Tower Dragon.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Amphibious",
 				"False Appearance",
@@ -10202,8 +11439,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Urban Ranger.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Hooded Lantern Trapper.webp"
 			},
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Urban Ranger.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"attachedItems": [
 				"longbow|phb",
 				"shortsword|phb"
@@ -10232,6 +11479,12 @@
 			"name": "Walking Delerium Geode",
 			"source": "DungeonsDrakkenheim",
 			"page": 205,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Walking Delerium Geode|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"L"
 			],
@@ -10320,9 +11573,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Walking Delerium Geode.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Walking%20Delerium%20Geode.webp"
 			},
 			"tokenCredit": "Anna Yaroslavova",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Walking Delerium Geode.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Death Burst"
 			],
@@ -10351,6 +11614,12 @@
 			"name": "Wall Gargoyle",
 			"source": "DungeonsDrakkenheim",
 			"page": 198,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Wall Gargoyle|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Gargoyle",
 				"source": "MM",
@@ -10392,9 +11661,20 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Wall Gargoyle.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Wall%20Gargoyle.webp"
 			},
 			"tokenCredit": "Karolina Łyżwa",
+			"foundryTokenScale": 1.8,
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Wall Gargoyle.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"False Appearance",
 				"Keen Senses",
@@ -10421,6 +11701,12 @@
 			"name": "Warlock of the Rat God",
 			"source": "DungeonsDrakkenheim",
 			"page": 202,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Warlock of the Rat God|MonstersOfDrakkenheim"
+				}
+			],
 			"size": [
 				"S"
 			],
@@ -10514,9 +11800,19 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Warlock of the Rat God.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Warlock%20Of%20The%20Rat%20God.webp"
 			},
 			"tokenCredit": "Tygodym",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Warlock of the Rat God.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"traitTags": [
 				"Keen Senses"
 			],
@@ -10552,6 +11848,12 @@
 			"name": "Warp Witch",
 			"source": "DungeonsDrakkenheim",
 			"page": 198,
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Warp Witch|MonstersOfDrakkenheim"
+				}
+			],
 			"_copy": {
 				"name": "Ghost",
 				"source": "MM",
@@ -10583,11 +11885,40 @@
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Warp Witch.webp"
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/Warp%20Witch.webp"
 			},
 			"tokenCredit": "Sidharth Chaturvedi",
+			"altArt": [
+				{
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/tokens/Warp Witch.webp"
+					},
+					"name": "Roll20",
+					"source": "DungeonsDrakkenheim"
+				}
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Water Elemental",
+			"isNpc": true,
+			"source": "DungeonsDrakkenheim",
+			"reprintedAs": [
+				{
+					"edition": "one",
+					"uid": "Water Elemental|CommunityDrakkenheim"
+				}
+			],
+			"_copy": {
+				"name": "Water Elemental",
+				"source": "MM"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/refs/heads/main/img/DungeonsDrakkenheim/bestiary/tokens/drakkenheim/extra/Water Elemental.webp"
+			}
 		}
 	],
 	"monsterFluff": [
@@ -10614,7 +11945,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Amalgamation.webp"
-					}
+					},
+					"width": 760,
+					"height": 1000
 				}
 			]
 		},
@@ -10635,7 +11968,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Animated Delerium Sludge.webp"
-					}
+					},
+					"width": 1000,
+					"height": 735
 				}
 			]
 		},
@@ -10675,7 +12010,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Big Linda.webp"
-					}
+					},
+					"width": 1000,
+					"height": 594
 				}
 			]
 		},
@@ -10696,7 +12033,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Cavalier.webp"
-					}
+					},
+					"width": 919,
+					"height": 1000
 				}
 			]
 		},
@@ -10717,7 +12056,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Chaplain.webp"
-					}
+					},
+					"width": 1000,
+					"height": 977
 				}
 			]
 		},
@@ -10738,7 +12079,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Crater Wurm.webp"
-					}
+					},
+					"width": 1000,
+					"height": 600
 				}
 			]
 		},
@@ -10808,7 +12151,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Crimson Countess.webp"
-					}
+					},
+					"width": 801,
+					"height": 1000
 				}
 			]
 		},
@@ -10837,7 +12182,9 @@
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Delerium Dreg.webp"
 					},
-					"title": "Delerium Dreg"
+					"title": "Delerium Dreg",
+					"width": 798,
+					"height": 1000
 				},
 				{
 					"type": "image",
@@ -10845,7 +12192,9 @@
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Delerium Mind Dreg.webp"
 					},
-					"title": "Delerium Mind Dreg"
+					"title": "Delerium Mind Dreg",
+					"width": 850,
+					"height": 1911
 				}
 			]
 		},
@@ -10917,7 +12266,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Eldrick Runeweaver.webp"
-					}
+					},
+					"width": 418,
+					"height": 1000
 				}
 			]
 		},
@@ -10938,7 +12289,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Entropic Flame.webp"
-					}
+					},
+					"width": 673,
+					"height": 1000
 				}
 			]
 		},
@@ -10959,7 +12312,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Eoghan Ghostweaver.webp"
-					}
+					},
+					"width": 772,
+					"height": 1000
 				}
 			]
 		},
@@ -10986,7 +12341,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Executioner.webp"
-					}
+					},
+					"width": 1000,
+					"height": 965
 				}
 			]
 		},
@@ -11059,7 +12416,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Haze Hulk.webp"
-					}
+					},
+					"width": 822,
+					"height": 1000
 				}
 			]
 		},
@@ -11110,7 +12469,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Hedge Mage.webp"
-					}
+					},
+					"width": 784,
+					"height": 1000
 				}
 			]
 		},
@@ -11131,7 +12492,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Hypnotic Eldritch Blossom.webp"
-					}
+					},
+					"width": 1000,
+					"height": 612
 				}
 			]
 		},
@@ -11201,7 +12564,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Knight-Captain Theodore Marshal.webp"
-					}
+					},
+					"width": 561,
+					"height": 1000
 				}
 			]
 		},
@@ -11251,7 +12616,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Lenore von Kessel.webp"
-					}
+					},
+					"width": 460,
+					"height": 1000
 				}
 			]
 		},
@@ -11272,7 +12639,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Living Deep Haze.webp"
-					}
+					},
+					"width": 741,
+					"height": 1000
 				}
 			]
 		},
@@ -11343,7 +12712,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Lord Commander Elias Drexel.webp"
-					}
+					},
+					"width": 440,
+					"height": 1000
 				}
 			]
 		},
@@ -11364,7 +12735,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Lord of the Feast.webp"
-					}
+					},
+					"width": 1000,
+					"height": 703
 				}
 			]
 		},
@@ -11434,7 +12807,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Lucretia Mathias.webp"
-					}
+					},
+					"width": 400,
+					"height": 1000
 				}
 			]
 		},
@@ -11456,7 +12831,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Minazorond.webp"
-					}
+					},
+					"width": 993,
+					"height": 1000
 				}
 			]
 		},
@@ -11528,7 +12905,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Oscar Yoren.webp"
-					}
+					},
+					"width": 698,
+					"height": 1000
 				}
 			]
 		},
@@ -11601,7 +12980,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Pale Man.webp"
-					}
+					},
+					"width": 802,
+					"height": 1000
 				}
 			]
 		},
@@ -11622,7 +13003,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Protean Abomination.webp"
-					}
+					},
+					"width": 882,
+					"height": 1000
 				}
 			]
 		},
@@ -11700,7 +13083,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Queen of Thieves.webp"
-					}
+					},
+					"width": 533,
+					"height": 1000
 				}
 			]
 		},
@@ -11721,7 +13106,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Rat Prince.webp"
-					}
+					},
+					"width": 908,
+					"height": 1000
 				}
 			]
 		},
@@ -11748,7 +13135,92 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Ratling.webp"
-					}
+					},
+					"width": 1000,
+					"height": 822
+				}
+			]
+		},
+		{
+			"name": "Ryan Greymere",
+			"source": "DungeonsDrakkenheim",
+			"entries": [
+				"Once highly regarded within the Amethyst Academy, Ryan Greymere's trailblazing research led to many early discoveries about delerium, and she designed many of the procedures used by the Academy to make magic items using the crystals. However, she shocked the Directorate by presenting a dramatic plan for the Amethyst Academy to overtly seize control of Drakkenheim by force. Such action would grossly overstep the Edicts of Lumen, but Greymere flippantly replied that the realms and clergy were in no place to actually enforce the Edicts anymore. As a result, she was branded malfeasant, disavowed by the Academy, and most insultingly, the Directorate took credit for her discoveries. She fled into Drakkenheim, and now plans on gaining access to the Inscrutable Tower and continuing her research in private.",
+				"Ryan Greymere is a human woman in her mid-forties. Armoured head to toe and wearing white robes, her spectral appearance has garnered her the moniker the \"Iron Banshee\".",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Personality Trait",
+									"entries": [
+										"Get to the point on a topic that excites me, or don't waste my time."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ideal",
+									"entries": [
+										"Only wizards can unlock the mysteries of delerium and protect the world from the Haze, but we cannot do that if we are hindered by the Edicts of Lumen."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bond",
+									"entries": [
+										"I greatly miss my friends and colleagues in the Amethyst Academy, but I'm furious about the way I was treated by the Directorate."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Flaw",
+									"entries": [
+										"I'm not wasting my time with boot-licking fools looking to restore a worthless monarchy."
+									]
+								}
+							]
+						}
+					]
+				},
+				"Ryan Greymere is a human archmage who wears {@item hazewalker plate|DungeonsDrakkenheim}, {@item winged boots}, and carries a {@item wand of lightning bolts}.",
+				"In addition to the spells she has prepared, her spellbook contains {@spell purge contamination|DungeonsDrakkenheim}, {@spell ride the rifts|DungeonsDrakkenheim}, and {@spell octarine spray|DungeonsDrakkenheim}.",
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Survival in the Haze",
+									"entries": [
+										"Ryan Greymere uses the {@spell Mordenkainen's Magnificent Mansion||magnificent mansion} spell each day to conjure a sanctuary where she can rest. She doesn't keep living quarters in the theatre."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Bound Elementals",
+									"entries": [
+										"Ryan Greymere's elementals were conjured and bound to her service via {@spell planar binding} and unquestionably obey her."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/adventure/097-06-014.ryan.webp"
+					},
+					"width": 760,
+					"height": 1000
 				}
 			]
 		},
@@ -11787,7 +13259,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Scoundrel.webp"
-					}
+					},
+					"width": 920,
+					"height": 1000
 				}
 			]
 		},
@@ -11808,7 +13282,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Tower Dragon.webp"
-					}
+					},
+					"width": 1000,
+					"height": 614
 				}
 			]
 		},
@@ -11836,7 +13312,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Urban Ranger.webp"
-					}
+					},
+					"width": 688,
+					"height": 1000
 				}
 			]
 		},
@@ -11899,7 +13377,9 @@
 					"href": {
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/DungeonsDrakkenheim/bestiary/Warp Witch.webp"
-					}
+					},
+					"width": 850,
+					"height": 1123
 				}
 			]
 		}
@@ -11914,11 +13394,7 @@
 					"type": "list",
 					"items": [
 						"A 10 foot radius cylinder of delerium sludge spouts up from the floor and raises 30 feet into the air before bubbling back down. Any creature caught in this spout must succeed on a {@dc 18} Constitution saving throw. They take 42 ({@damage 12d6}) necrotic damage on a failed saving throw, and half as much on a successful one. In addition, characters who fail the saving throw gain one {@adventure level of contamination|DungeonsDrakkenheim|12}.",
-						"Walls within 120 feet of the Gravekeeper sprout grasping, fleshy arms. Each creature of the Gravekeepers choice that starts its turn within 10 feet of such a wall must succeed on a {@dc 15} Dexterity saving throw or be grappled. Escaping requires a successful {@dc 15} Strength (",
-						"{@skill Athletics}",
-						") or Dexterity (",
-						"{@skill Acrobatics}",
-						") check.",
+						"Walls within 120 feet of the Gravekeeper sprout grasping, fleshy arms. Each creature of the Gravekeepers choice that starts its turn within 10 feet of such a wall must succeed on a {@dc 15} Dexterity saving throw or be grappled. Escaping requires a successful {@dc 15} Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check.",
 						"A torch or lantern hanging in the room emits one of the Gravekeeper's lantern blasts."
 					]
 				},
